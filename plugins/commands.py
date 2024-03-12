@@ -107,8 +107,8 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
-            caption="**Please Join My Updates Channel to use this Bot!**\n"
-                 "**Due to Overload, Only Channel Subscribers can use this Bot!**\n\n"
+            caption="**You have not joined our Update Channel.\n
+Click on the Join Our Channel button and join our update channel.\n After that, please try again.\n\n**\n\n"
             "**आपने हमारे Update Channel को join नहीं कर रखा है।**\n"
             "**Join Our Channel वाले बटन पर Click करें। और हमारे अपडेट चैनल को ज्वाइन करें। इसके बाद आप फिर से Try करें।.....**",
             reply_markup=InlineKeyboardMarkup(btn),
